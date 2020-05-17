@@ -1,0 +1,1 @@
+This is a practice project to deconstruct and rebuild a webpage.  I should be able to effectively use dev tools with google chrome
