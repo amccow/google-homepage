@@ -1,0 +1,181 @@
+* {margin: 0;
+    padding: 0;
+
+    
+}
+
+/*navbar section*/
+header {;
+height: 60px;
+}
+
+.navbar {display: grid;
+    grid-template-columns: 50px 50px 1fr 70px 70px 70px 70px;
+    grid-template-rows: 50px;
+    grid-template-areas: "about store . gmail images menu sign-in";
+    margin: 0 20 0 10;
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+
+#about {grid-area: about;text-decoration: none;
+    color: black;
+    margin: 10px;
+    justify-self: center;
+    align-self: center;}
+#about:hover {text-decoration: underline;}
+
+#store {grid-area: store;text-decoration: none;
+    color: black;
+    margin: 10px;
+    justify-self: center;
+    align-self: center;}
+#store:hover {text-decoration: underline;}
+
+#gmail {grid-area: gmail;text-decoration: none;
+    color: black;
+    margin: 10px;
+    justify-self: center;
+    align-self: center;}
+ #gmail:hover {text-decoration: underline;}
+
+#Images {grid-area: images;text-decoration: none;
+    color: black;
+    margin: 10px;
+    justify-self: center;
+    align-self: center;}
+#Images:hover {text-decoration: underline;}
+
+#menu {grid-area: menu;text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    justify-self: center;
+    align-self: center;}
+#menu:hover {text-decoration: underline;}
+
+#Sign-in {grid-area: sign-in;text-decoration: none;
+    color: white;
+    margin: 10px;
+    border: 1px solid #4285f4;
+    background: #4387fd;
+    justify-self: center;
+    align-self: center;
+    height: 30px;
+    width: 65px;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 2px;
+}
+#Sign-in:hover {text-decoration: underline;}
+
+
+
+
+/* main section */
+main {height: 89vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    ". img ."
+    ". search ."
+    ". button .";
+}
+
+img {justify-self: center;
+    align-self: end;
+    grid-area: img;
+  }
+
+.search-bar {
+    border-radius: 50px;
+    height: 50px;
+    width: 40%;
+    justify-self: center;
+    align-self: center;
+    grid-area: search;}
+
+#buttons {grid-area: button;
+    justify-self: center;
+    align-self: ;
+    border-radius: 4px;
+    height: 36px;
+}
+
+.button1 {border:5px solid #f5f5f5;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font: bold;
+    background-color: #f5f5f5;
+    margin-right: 15x;}
+    
+.button2 {border:5px solid #f5f5f5;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font: bold;
+    background-color: #f5f5f5;
+    margin-left: 15px;}
+
+.button1:hover {box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8} 
+.button2:hover {box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8} 
+
+
+
+/*footer*/
+
+footer {background-color: #f2f2f2;
+    position: absolute;
+    bottom: auto;
+    width: 100vw;
+    font-size: 14px;
+    color: #5f6368;
+    height: 35px;
+    display: grid;
+    padding-bottom: 10px;
+    grid-template-columns: 100px 100px 150px 1fr 100px 100px 100px;
+    grid-template-rows: 50px;
+    grid-template-areas: "advertising business how-search . privacy terms settings";
+}
+#advertising {grid-area: advertising;
+    text-decoration: none;
+    color: black;
+    justify-self: center;
+    align-self: center;}
+#advertising:hover {text-decoration: underline;}
+#business {grid-area: business;
+    text-decoration: none;
+    color: black;
+    justify-self: center;
+    align-self: center;}
+#business:hover {text-decoration: underline;}
+#how-search {grid-area: how-search;
+    text-decoration: none;
+    color: black;
+    justify-self: center;
+    align-self: center;}
+#how-search:hover {text-decoration: underline;}
+#privacy {grid-area: privacy;
+    text-decoration: none;
+    color: black;
+    justify-self: center;
+    align-self: center;}
+#privacy:hover {text-decoration: underline;}
+#terms {grid-area: terms;
+    text-decoration: none;
+    color: black;
+    justify-self: center;
+    align-self: center;}
+#terms:hover {text-decoration: underline;}
+#settings{grid-area: settings;
+    text-decoration: none;
+    color: black;
+    justify-self: center;
+    align-self: center;}
+#settings:hover {text-decoration: underline;}
+
